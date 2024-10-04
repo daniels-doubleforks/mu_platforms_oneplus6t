@@ -10,6 +10,7 @@ python3 -m venv BuildMuVenv
 source BuildMuVenv/bin/activate
 cd mu_platforms_oneplus6t
 pip install --upgrade -r pip-requirements.txt
+mkdir img
 
 
 
