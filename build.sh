@@ -10,6 +10,7 @@ python3 -m venv BuildMuVenv
 source BuildMuVenv/bin/activate
 cd mu_platforms_oneplus6t
 pip install --upgrade -r pip-requirements.txt
+export CLANG38_CC_FLAGS="-Wno-error=unaligned-access -Wunused-but-set-variable"
 stuart_setup -c Platforms/OnePlus6TPkg/PlatformCI/PlatformBuild.py TOOL_CHAIN_TAG=CLANG38
 stuart_update -c Platforms/OnePlus6TPkg/PlatformCI/PlatformBuild.py TOOL_CHAIN_TAG=CLANG38
 stuart_build -c Platforms/OnePlus6TPkg/PlatformCI/PlatformBuild.py TOOL_CHAIN_TAG=CLANG38
