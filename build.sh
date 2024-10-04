@@ -2,7 +2,6 @@ export CLANG38_CC_FLAGS="-Wno-error=unaligned-access -Wunused-but-set-variable"
 stuart_setup -c Platforms/OnePlus6TPkg/PlatformCI/PlatformBuild.py TOOL_CHAIN_TAG=CLANG38||exit 1
 stuart_update -c Platforms/OnePlus6TPkg/PlatformCI/PlatformBuild.py TOOL_CHAIN_TAG=CLANG38||exit 1
 stuart_build -c Platforms/OnePlus6TPkg/PlatformCI/PlatformBuild.py TOOL_CHAIN_TAG=CLANG38||exit 1
-mkdir img||exit 1
 cp Build/OnePlus6TPkg/DEBUG_CLANG38/FV/ONEPLUS6TPKG_UEFI.fd ./img||exit 1
 cp dtb/fajita.dtb ./img||exit 1
 echo > ./img/ramdisk||exit 1
