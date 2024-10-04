@@ -347,6 +347,6 @@
 !endif #$(INCLUDE_TFTP_COMMAND)
 
 [BuildOptions]
-  DEBUG_CLANG38_AARCH64_CC_FLAGS = -Wno-error=unaligned-access -Wno-unused-variable
-  RELEASE_CLANG38_AARCH64_CC_FLAGS = -Wno-error=unaligned-access -Wno-unused-variable
+  DEBUG_CLANG38_AARCH64_CC_FLAGS = -Wno-error=unaligned-access -Wno-unused-variable -Wunused-but-set-variable
+  RELEASE_CLANG38_AARCH64_CC_FLAGS = -Wno-error=unaligned-access -Wno-unused-variable -Wunused-but-set-variable
 
