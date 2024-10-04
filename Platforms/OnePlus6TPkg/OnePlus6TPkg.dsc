@@ -75,6 +75,7 @@
   AuthVariableLib              |MdeModulePkg/Library/AuthVariableLibNull/AuthVariableLibNull.inf
   TpmMeasurementLib            |MdeModulePkg/Library/TpmMeasurementLibNull/TpmMeasurementLibNull.inf
   VarCheckLib                  |MdeModulePkg/Library/VarCheckLib/VarCheckLib.inf
+  VariablePolicyLib            |MdeModulePkg/Library/VariablePolicyLib/VariablePolicyLib.inf
 
   # SimpleFbDxe
   FrameBufferBltLib            |MdeModulePkg/Library/FrameBufferBltLib/FrameBufferBltLib.inf
@@ -304,6 +305,7 @@
   #
   # Bds
   #
+  MdeModulePkg/Library/VariablePolicyLib/VariablePolicyLibRuntimeDxe.inf
   MdeModulePkg/Universal/Variable/RuntimeDxe/VariableRuntimeDxe.inf
   MdeModulePkg/Universal/PrintDxe/PrintDxe.inf
   MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf
