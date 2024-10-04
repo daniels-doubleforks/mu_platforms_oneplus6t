@@ -76,6 +76,7 @@
   TpmMeasurementLib            |MdeModulePkg/Library/TpmMeasurementLibNull/TpmMeasurementLibNull.inf
   VarCheckLib                  |MdeModulePkg/Library/VarCheckLib/VarCheckLib.inf
   VariablePolicyLib            |MdeModulePkg/Library/VariablePolicyLib/VariablePolicyLibRuntimeDxe.inf
+  MemoryTypeInfoSecVarCheckLib |MdeModulePkg/Library/MemoryTypeInfoSecVarCheckLib/MemoryTypeInfoSecVarCheckLib.inf
 
   # SimpleFbDxe
   FrameBufferBltLib            |MdeModulePkg/Library/FrameBufferBltLib/FrameBufferBltLib.inf
