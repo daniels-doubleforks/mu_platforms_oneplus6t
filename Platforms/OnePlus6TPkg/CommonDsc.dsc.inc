@@ -183,7 +183,6 @@
   PerformanceLib                          |MdeModulePkg/Library/DxePerformanceLib/DxePerformanceLib.inf
   MemoryAllocationLib                     |MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib.inf
   DtPlatformDtbLoaderLib                  |EmbeddedPkg/Library/DxeDtPlatformDtbLoaderLibDefault/DxeDtPlatformDtbLoaderLibDefault.inf
-  VariablePolicyLib                       |MdeModulePkg/Library/VariablePolicyLib/VariablePolicyLibRuntimeDxe.inf
 
 [LibraryClasses.common.UEFI_APPLICATION
   UefiDecompressLib                       |MdePkg/Library/BaseUefiDecompressLib/BaseUefiTianoCustomDecompressLib.inf
